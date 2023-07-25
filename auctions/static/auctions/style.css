@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika&display=swap");
+:root {
+  --darkColor: #272130;
+  --primaryColor: #544767;
+  --2ndColor: #6C627C;
+  --3rdColor: #888194;
+  --4thColor: #A8A4AF;
+  --5thColor: #D9D7DB;
+  --bodyColor: #f9f7fb;
+}
+
+body {
+  font-family: Andika !important;
+  padding: 20px 10px 20px 10px;
+  background-color: var(--bodyColor) !important;
+}
+
+.jumbotron {
+  background-color: var(--4thColor) !important;
+  padding: 2rem 2rem !important;
+}
+
+h1 {
+  color: var(--darkColor);
+  font-size: 3rem !important;
+  margin: 10px;
+}
+
+.singed {
+  color: var(--primaryColor);
+  font-size: 1rem;
+}
+
+.nav-link {
+  color: var(--darkColor) !important;
+  font-size: 1.2rem;
+  padding: 0 !important;
+  margin: 2rem 1.5rem 1rem 1.5rem;
+}
+
+.nav-link:hover {
+  color: var(--2ndColor) !important;
+  border-bottom: 2px solid var(--2ndColor);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--5thColor);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: var(--darkColor);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--bodyColor);
+  color: var(--2ndColor);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.badge-success {
+  color: var(--bodyColor) !important;
+  background-color: var(--2ndColor) !important;
+}
+
+#listings {
+  display: flex !important;
+  max-width: 1400px;
+  justify-content: center !important;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-group {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column;
+  align-items: center !important;
+  align-content: space-around !important;
+  max-width: 400px;
+  min-height: 600px !important;
+  background-color: #ffffff;
+  margin-left: 10px;
+  margin-top: 4%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top {
+  width: 300px !important;
+  height: auto;
+  align-self: center;
+}
+
+.btn-outline-success {
+  color: var(--2ndColor) !important;
+  border-color: var(--2ndColor) !important;
+}
+
+.btn-outline-success:hover {
+  color: var(--bodyColor) !important;
+  background-color: var(--2ndColor) !important;
+  border-color: var(--2ndColor) !important;
+}
+
+.text-mute {
+  color: var(--4thColor) !important;
+  opacity: 1;
+}
+
+label {
+  font-size: 1.4rem !important;
+  color: var(--darkColor);
+}
+
+.container > h2 {
+  font-size: 2.5rem !important;
+  margin: 35px 0 35px 0;
+  color: var(--darkColor);
+}
+
+@media only screen and (min-width: 1070px) {
+  #form-container {
+    padding: 0 150px;
+  }
+}
+.btn-outline-info {
+  color: var(--2ndColor) !important;
+  border-color: var(--2ndColor) !important;
+}
+
+.btn-outline-info:hover {
+  color: var(--bodyColor) !important;
+  background-color: var(--2ndColor) !important;
+  border-color: var(--2ndColor) !important;
+}
+
+.btn-success, .btn-primary {
+  color: var(--2ndColor) !important;
+  background-color: var(--bodyColor) !important;
+  border-color: var(--2ndColor) !important;
+}
+
+.btn-success:hover, .btn-primary:hover {
+  color: var(--bodyColor) !important;
+  background-color: var(--2ndColor) !important;
+  border-color: var(--2ndColor) !important;
+}
+
+.btn-secondary {
+  background-color: var(--primaryColor) !important;
+}
+
+.btn-secondary:hover {
+  background-color: var(--4thColor) !important;
+  color: var(--darkColor) !important;
+}/*# sourceMappingURL=style.css.map */
