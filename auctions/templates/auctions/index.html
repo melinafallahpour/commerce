@@ -11,6 +11,7 @@
             <img  src="{{i.link}}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">{{i.title}}</h5>
+              <hr>
               <p class="card-text">{{i.description}}</p>
               <p class="card-text">${{i.price}}</p>
               <a href="{% url 'listingpage' i.id %}"><button class="btn btn-outline-success">More Details</button></a>
